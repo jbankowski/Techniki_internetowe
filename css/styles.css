@@ -1,0 +1,36 @@
+.jumbotron{
+    position: relative;
+    background: url("http://ug.edu.pl/sites/default/files/styles/threshold-1382/public/_nodes/budynek/5724/images/budynek54.jpg?itok=MH12yzv7") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+	color: white;
+}
+
+.mapwrapper{
+	position:relative;
+	padding-bottom:66,6666667%;
+	height:0;
+	}
+	
+.mapwrapper ifram{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100;
+}
+
+window.MathJax {
+    config: ["MMLorHTML.js"],
+    jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+    extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+    TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js", "action.js"]
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  }
